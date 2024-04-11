@@ -1,13 +1,8 @@
 module.exports = {
-  extends: ['prettier', 'plugin:prettier/recommended'],
+  extends: ['prettier', 'plugin:prettier/recommended', 'eslint:recommended'],
   settings: {
     react: {
       version: 'detect',
     },
-  },
-  parserOptions: {
-    // Required for certain syntax usages
-    ecmaVersion: 2020,
-    sourceType: 'module',
   },
 };
