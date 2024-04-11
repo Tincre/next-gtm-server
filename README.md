@@ -1,63 +1,14 @@
-# promo-types, by [Tincre`.dev`](https://tincre.dev/)
+# next-gtm-server, by [Tincre](https://tincre.com/)
 
-Types for Tincre [Promo](https://tincre.dev/promo). Use it in conjunction with the [`promo-dashboard`](https://github.com/Tincre/promo-dashboard), [`promo-chat`](https://github.com/Tincre/promo-chat), [`promo-button`](https://github.com/Tincre/promo-button) and other Promo integration applications.
+This is the GTM portion from the `@next/third-parties`, a collection of components and utilities that can be used to efficiently load third-party libraries into your Next.js applications.
 
-- [promo-types, by Tincre`.dev`](#promo-types-by-tincredev)
-  - [Installation](#installation)
-    - [Yarn](#yarn)
-    - [Npm](#npm)
-    - [Usage](#usage)
-  - [Support](#support)
-  - [License](#license)
-  - [Development](#development)
-    - [Releases](#releases)
-      - [Release prep](#release-prep)
-        - [Test release](#test-release)
-      - [Release `latest` tag](#release-latest-tag)
+> Note: `@next/third-parties` is still experimental and under active development.
 
-## Installation
-
-Use your favorite package manager to rock installation of `promo-types`.
-
-### Yarn
-
-```
-yarn add @tincre/promo-types# -D if you want this as a dev dep
-```
-
-### Npm
-
-```
-npm install @tincre/promo-types# --save-dev if you want it as a dev dep
-```
-
-### Usage
-
-- Import the types
-- Use the types
-- Deploy!
-
-#### Usage example
-
-```ts
-import { CampaignData } from '@tincre/promo-types';
-
-const data: CampaignData = {
-    ...//your actual stuff here
-}
-```
-
-## Support
-
-- Documentation: [tincre.dev/docs](https://tincre.dev/docs)
-- Guides and how-tos: [tincre.dev/docs/guides](https://tincre.dev/docs/guides)
-- Reference docs: [tincre.dev/docs/reference](https://tincre.dev/docs/reference)
-- Community: [community.tincre.dev](https://community.tincre.dev)
+This version of `GoogleTagManager` allows for custom urls to be set for server-side Google Tag Manager deployments.
 
 ## License
 
-This code is free to use for your commercial or personal projects. It is open-source
-licensed under the [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/).
+This code is under the MIT license. 
 
 You will see various headers throughout the codebase and can reference the license
 directly via [LICENSE](/LICENSE) herein.
